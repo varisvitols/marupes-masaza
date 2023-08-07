@@ -1,0 +1,147 @@
+/* Reset */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+/* body {
+  background-image: url('mandala-bg.jpeg');
+  background-size: cover;
+  background-position: top center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: -2px -2px 2px rgba(255,255,255,.1), 2px 2px 2px rgba(0,0,0,.95);
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,95);
+} */
+
+body {
+  background-image: url('mandala-bg-op92.jpeg');
+  background-size: cover;
+  background-position: top center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: -2px -2px 2px rgba(255,255,255,.1), 2px 2px 2px rgba(0,0,0,.95);
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,95);
+}
+
+/* body {
+  background-image: url('mandala-bg-op85.jpeg');
+  background-size: cover;
+  background-position: top center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: -2px -2px 2px rgba(255,255,255,.1), 2px 2px 2px rgba(0,0,0,.95);
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,95);
+} */
+
+/* body {
+  background-image: url('mandala-bg-op75.jpeg');
+  background-size: cover;
+  background-position: top center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,95);
+} */
+
+/* body {
+  background-image: url('mandala-bg-op75.jpeg');
+  background-size: cover;
+  background-position: top center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: red;
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,95);
+} */
+
+h1 {
+  padding: 3rem 0
+}
+
+  .page-container {
+    /* background-color: rgba(255, 166, 0, .3); */
+    /* background-color: rgba(255, 145, 0, 0.3); */
+    background-color: rgba(200, 130, 0, 0.5);
+    /* background-color: rgba(0, 106, 255, 0.307); */
+    /* background-color: rgba(255, 51, 0, 0.3); */
+   
+  }
+
+  .page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+  }
+
+  .treatments {
+    width: 100%;
+    padding: 0 0.5rem;
+  }
+
+  .treatments-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+    /* color: #d9d9d9;
+    background: #e8e8e8; */
+    
+  }
+
+  .treatments-item__description {
+   display: flex;
+   width: 100%;
+   font-style: italic;
+   font-size: 1.1rem;
+  }
+
+  .treatments-item__left {
+    width: 50%;
+    text-align: right;
+    margin-right: .7rem;
+  }
+
+  .treatments-item__right {
+    width: 50%;
+    margin-left: .7rem;
+  }
+
+  .treatments-item__price {
+    
+  }
+
+  .treatments-item__center {
+
+  }
+
+  .footer {
+    padding: 5rem 0 1rem;
+    text-align: center;
+  }

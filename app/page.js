@@ -8,7 +8,7 @@ export default async function Home() {
   const data = JSON.parse(file);
 
   const treatments = data.treatments.map((item) => (
-<TreatmentsItem itemData={item} />
+<TreatmentsItem key={Math.round(Math.random)} itemData={item} />
   ))
 
   return (

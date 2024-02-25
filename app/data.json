@@ -1,59 +1,59 @@
 {
-    "treatments": [
-        {
-            "titleLv": "Klasiskā masāža visam ķermenim",
-            "titleEn": "Full body classical massage",
-            "price": "1h - 20 eur"
-        },
-        {
-            "titleLv": "Sporta masāža",
-            "titleEn": "Sports massage",
-            "price": "1h - 35 eur"
-        },
-        {
-            "titleLv": "Taizemes masāža",
-            "titleEn": "Thai massage Traditional",
-            "price": "1h - 30 eur"
-        },
-        {
-            "titleLv": "Relaksējoša aromterapijas masāža",
-            "titleEn": "Relaxing Aromatic Massage",
-            "price": "1h - 15 eur"
-        },
-        {
-            "titleLv": "Taizemes refleksioloģiskā pēdu masāža",
-            "titleEn": "Thai reflexology foot massage",
-            "price": "30m - 15 eur"
-        },
-        {
-            "titleLv": "Relaksējoša tonizējoša muguras masāža",
-            "titleEn": "Relaxing Toning Back massage",
-            "price": "30m - 15 eur, 1h - 25 eur"
-        },
-        {
-            "titleLv": "Dziļo audu masāža",
-            "titleEn": "Deep tissue massage",
-            "price": "1h - 33 eur"
-        },
-        {
-            "titleLv": "Galvas un kakla masāža",
-            "titleEn": "Head and neck massage",
-            "price": "30m - 12 eur"
-        },
-        {
-            "titleLv": "Tibetas muguras masāža",
-            "titleEn": "Tibetan back massage",
-            "price": "33 eur"
-        },
-        {
-            "titleLv": "Skulpturējošā jeb Anticelulīta masāža",
-            "titleEn": "Sculpting or Anticellulite massage",
-            "price": "33 eur"
-        },
-        {
-            "titleLv": "Sejas liftinga masāža",
-            "titleEn": "Anti-age massage",
-            "price": "25m - 15 eur"
-        }
-    ]
+  "treatments": [
+    {
+      "titleLv": "Klasiskā masāža visam ķermenim",
+      "titleEn": "Full body classical massage",
+      "price": "1h - 20 eur"
+    },
+    {
+      "titleLv": "Sporta masāža",
+      "titleEn": "Sports massage",
+      "price": "1h - 35 eur"
+    },
+    {
+      "titleLv": "Taizemes masāža",
+      "titleEn": "Thai massage Traditional",
+      "price": "1h - 30 eur"
+    },
+    {
+      "titleLv": "Relaksējoša aromterapijas masāža",
+      "titleEn": "Relaxing Aromatic Massage",
+      "price": "1h - 15 eur"
+    },
+    {
+      "titleLv": "Taizemes refleksioloģiskā pēdu masāža",
+      "titleEn": "Thai reflexology foot massage",
+      "price": "30m - 15 eur"
+    },
+    {
+      "titleLv": "Relaksējoša tonizējoša muguras masāža",
+      "titleEn": "Relaxing Toning Back massage",
+      "price": "30m - 15 eur, 1h - 25 eur"
+    },
+    {
+      "titleLv": "Dziļo audu masāža",
+      "titleEn": "Deep tissue massage",
+      "price": "1h - 33 eur"
+    },
+    {
+      "titleLv": "Galvas un kakla masāža",
+      "titleEn": "Head and neck massage",
+      "price": "30m - 12 eur"
+    },
+    {
+      "titleLv": "Tibetas muguras masāža",
+      "titleEn": "Tibetan back massage",
+      "price": "33 eur"
+    },
+    {
+      "titleLv": "Skulpturējošā jeb Anticelulīta masāža",
+      "titleEn": "Sculpting or Anticellulite massage",
+      "price": "33 eur"
+    },
+    {
+      "titleLv": "Sejas liftinga masāža",
+      "titleEn": "Anti-age massage",
+      "price": "25m - 15 eur"
+    }
+  ]
 }

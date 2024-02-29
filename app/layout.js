@@ -1,5 +1,7 @@
+import Link from 'next/link'
 import { Raleway } from 'next/font/google'
 import './globals.css'
+import Navigation from '@/app/_components/navigation'
 
 const raleway = Raleway({ subsets: ['latin-ext'] })
 console.log(raleway)
@@ -15,13 +17,16 @@ export default function RootLayout({ children }) {
       <body className={raleway.className}>
         <div className="page-container">
           <div className="page-content">
-            <h1 className="logo">Mārupes Masāža</h1>
+            <Link href="/">
+              <h1 className="logo">Mārupes Masāža</h1>
+            </Link>
+            <Navigation />
             {children}
-            <div class="footer">
-              <div class="contacts">
+            <div className="footer">
+              <div className="contacts">
                 <div>Samanta, tel. 25 137 388</div>
-                <div>Mārupe.</div>
-                <div class="icon-links">
+                <div>Mārupe</div>
+                <div className="icon-links">
                   <a
                     href="https://www.instagram.com/marupe_massage/"
                     target="_blank"

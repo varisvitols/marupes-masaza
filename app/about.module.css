@@ -1,0 +1,14 @@
+.about {
+  max-width: 800px;
+  padding: 0 20px;
+  text-align: center;
+  margin-top: -1rem;
+}
+
+.about p {
+  margin: 1rem 0;
+}
+
+.aboutItem {
+  margin-bottom: 3rem;
+}

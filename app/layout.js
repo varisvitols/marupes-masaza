@@ -4,7 +4,6 @@ import './globals.css'
 import Navigation from '@/app/_components/navigation'
 
 const raleway = Raleway({ subsets: ['latin-ext'] })
-console.log(raleway)
 
 export const metadata = {
   title: 'Mārupes Masāža',
@@ -30,6 +29,7 @@ export default function RootLayout({ children }) {
                   <a
                     href="https://www.instagram.com/marupe_massage/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <svg
                       fill="#fff"

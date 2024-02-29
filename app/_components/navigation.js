@@ -4,9 +4,8 @@ import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import styles from './navigation.module.css'
 
-export default function Navigation({}) {
+export default function Navigation() {
   const pathname = usePathname()
-  const homepageLinkText = 'Mana masāžas filozofija'
 
   return (
     <nav className={styles.navigation}>

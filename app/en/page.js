@@ -1,9 +1,11 @@
-import styles from './about.module.css'
+import styles from '../about.module.css'
 import { promises as fs } from 'fs'
 
-export default async function Home() {
+export default async function Home({ params: { lang } }) {
   const file = await fs.readFile(process.cwd() + '/app/data.json', 'utf8')
   const data = JSON.parse(file)
+
+  console.log('lang', lang)
 
   // console.log(data.info.lv)
 

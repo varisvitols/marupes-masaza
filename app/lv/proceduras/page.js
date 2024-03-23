@@ -1,4 +1,4 @@
-import TreatmentsItem from '../treatments-item'
+import TreatmentsItem from '../../treatments-item'
 import { promises as fs } from 'fs'
 
 export default async function Home() {

@@ -27,7 +27,7 @@ export default function Navigation() {
         className={`${styles.link} ${pathname === '/proceduras' ? styles.active : ''}`}
         href="/proceduras"
       >
-        Procedūras
+        Procedimientos
       </Link>
     </nav>
   )

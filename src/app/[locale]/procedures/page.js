@@ -6,7 +6,7 @@ export default async function Home({ params: { locale } }) {
   const data = JSON.parse(file)
 
   const treatments = data.treatments.map((item) => {
-    const currency = 'eur'
+    const currency = locale === 'es' ? 'usd' : 'eur'
     const title = item.title[locale]
     const price = item.price[currency]
     const itemData = {
@@ -14,12 +14,14 @@ export default async function Home({ params: { locale } }) {
       price,
     }
 
-    return (
-      <TreatmentsItem
-        key={Math.round(Math.random)}
-        itemData={itemData}
-      />
-    )
+    if (title) {
+      return (
+        <TreatmentsItem
+          key={Math.round(Math.random)}
+          itemData={itemData}
+        />
+      )
+    }
   })
 
   return <main className="treatments">{treatments}</main>

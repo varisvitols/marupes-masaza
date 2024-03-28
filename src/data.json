@@ -3,46 +3,64 @@
     {
       "title": {
         "lv": "Klasiskā masāža visam ķermenim",
-        "en": "Full body classical massage"
+        "en": "Full body classical massage",
+        "es": "Masaje sueca - masaje clasico de cuerpo completo"
       },
       "price": {
-        "eur": "1h - 20 eur"
+        "eur": "1h - 20 eur",
+        "usd": "1h - 20$  1.30h - 25$"
       }
     },
     {
       "title": {
         "lv": "Sporta masāža",
-        "en": "Sports massage"
+        "en": "Sports massage",
+        "es": "Masaje deportivo"
       },
       "price": {
-        "eur": "1h - 35 eur"
+        "eur": "1h - 35 eur",
+        "usd": "2h - 35$, 1.30h - 30$, 1h - 25$"
+      }
+    },
+    {
+      "title": {
+        "es": "Masaje tailandés"
+      },
+      "price": {
+        "usd": "1.30h- 33$, 1h- 30$"
       }
     },
     {
       "title": {
         "lv": "Taizemes masāža",
-        "en": "Thai massage Traditional"
+        "en": "Thai massage Traditional",
+        "es": "Masaje tailandés tradicional"
       },
       "price": {
-        "eur": "1h - 30 eur"
+        "eur": "1h - 30 eur",
+        "usd": "1h - 30$"
       }
     },
     {
       "title": {
         "lv": "Relaksējoša aromterapijas masāža",
-        "en": "Relaxing Aromatic Massage"
+        "en": "Relaxing Aromatic Massage",
+        "es": "Masaje Aromatico Relajante"
       },
       "price": {
-        "eur": "1h - 15 eur"
+        "eur": "1h - 15 eur",
+        "usd": "1h - 15$, 1.30h - 20$"
       }
     },
     {
       "title": {
         "lv": "Taizemes refleksioloģiskā pēdu masāža",
-        "en": "Thai reflexology foot massage"
+        "en": "Thai reflexology foot massage",
+        "es": "Masaje de pies con reflexologia tailandesa"
       },
       "price": {
-        "eur": "30m - 15 eur"
+        "eur": "30m - 15 eur",
+        "usd": "30min - 15$, 45min - 20$"
       }
     },
     {
@@ -66,10 +84,12 @@
     {
       "title": {
         "lv": "Galvas un kakla masāža",
-        "en": "Head and neck massage"
+        "en": "Head and neck massage",
+        "es": "Masaje de cabeza y cuello"
       },
       "price": {
-        "eur": "30m - 12 eur"
+        "eur": "30m - 12 eur",
+        "usd": "30 min - 15$"
       }
     },
     {
@@ -84,19 +104,31 @@
     {
       "title": {
         "lv": "Skulpturējošā jeb Anticelulīta masāža",
-        "en": "Sculpting or Anticellulite massage"
+        "en": "Sculpting or Anticellulite massage",
+        "es": "Masaje escultor o anticelulitico"
       },
       "price": {
-        "eur": "33 eur"
+        "eur": "33 eur",
+        "usd": "1h- 25$, 1.30h- 30$"
       }
     },
     {
       "title": {
         "lv": "Sejas liftinga masāža",
-        "en": "Anti-age massage"
+        "en": "Anti-age massage",
+        "es": "Masaje lifting facial o antiedad 30 min"
       },
       "price": {
-        "eur": "25m - 15 eur"
+        "eur": "25m - 15 eur",
+        "usd": "15$"
+      }
+    },
+    {
+      "title": {
+        "es": "Masaje de drenaje linfatico"
+      },
+      "price": {
+        "usd": "1h-25$, 1.30h- 30$"
       }
     }
   ],
@@ -116,6 +148,11 @@
         "id": "3",
         "text": "Esmu apguvusi caur- unikālu kulturālu apmaiņu- Taizemes masāžu visam ķermenim. Pārzinu meridiānus, punktus un līnijas uz ķermeņa, ko aktivizēt, lai Jūs iegūtu vēlamo rezultātu. Manas masāžas ir ideāli piemērotas sportistiem un citiem aktīviem cilvēkiem. Visvairāk iesaku tradicionālo Taizemes masāžu, kur pielietoju aktīvākas kustības un tev ir iespēja izbaudīt pasīvo jogu. Viens pētījums parādīja, ka deviņas tradicionālās taizemiešu masāžas sesijas 3 nedēļu laikā var mazināt sāpīgas galvassāpes.",
         "style": "italic"
+      },
+      {
+        "id": "4",
+        "text": "Mana pieredze: \n2021 Klasiskās jeb zviedru masāžas sertifikāts \"Rīgas Starptautiskā mācību skola\" Latvija \n2022 Taizemiešu masāža, prakse un darbs- Vācijā, Nirnbergā \n2023 Sporta masāžas profesionālās izglītības sertifikāts \"Profesionālā Skaistuma skola\" Latvija",
+        "style": "italic"
       }
     ],
     "en": [
@@ -132,6 +169,28 @@
       {
         "id": "3",
         "text": "Through a unique cultural exchange, I have learned Thai massage for the whole body. I know the meridians, points and lines on the body that must be activated to achieve the result you need. My massages are perfectly suitable for athletes and other active people. Usually, recommended procedure for most people is the Traditional Thai massage. A study shows that nine sessions of traditional Thai massage in a 3-week period can reduce painful headaches. If this is what you need, then you are in right place.",
+        "style": "italic"
+      },
+      {
+        "id": "4",
+        "text": "Experience: \n2021 Certificate obtained in Sweedish massage or classical massage \"International Scool of Riga\", Latvia \n2022 Thai Massage salon, practical and working experience in Germany, Nuremberg \n2024 Sports Massage sertification recieved from vocational training center \"Professional School of Beauty\", Latvia",
+        "style": "italic"
+      }
+    ],
+    "es": [
+      {
+        "id": "1",
+        "text": "Yo comencé con masaje sueca o masaje clásico de cuerpo completo en Letonia, Riga. Mi viaje con masajes empezó en 2021. Mi objetivó es acercarte a la mirada de mis masajes en el intercambio cultural. Puedes elegir sentir diferentes métodos que pueden ayudarte a reparar. \nUtilizo la técnica de masaje oriental, como Lomi-Lomi y tradicional tailandés. Conozco los meridianos, puntos del cuerpo y zonas de activación para casa individuo. Mis masajes son ideales para deportistas y personas activas o también para personas sedentarias. Comenzando desde la cabeza hasta la cara y terminando en los pies. Recibirás un procedimiento y relajación único.",
+        "style": "italic"
+      },
+      {
+        "id": "2",
+        "text": "Yo he practicado en un salón de masaje tailandés. Trabajando en un salón alemán, así como un SPA de Letonia que es reconocido en Europa- Aqua Villa Botique SPA. \nÚltimamente he estado trabajando por cuento propia. Puedes mirar los procedimientos disponibles en mi proprio sitio web para masajes. Ahora doy masajes como drenaje linfático, anticelulítico, deportivo. \nMi objetivó es que puedes confiar tu cuerpo en buenos manos y brindar servicios de calidad.",
+        "style": "italic"
+      },
+      {
+        "id": "3",
+        "text": "Comunicación: inglés, alemán, letón o español \nExperiencia: \n2021 Certificado obtenido en masaje sueca o masaje clásico \"Escuela Internacional de Riga\" Letonia \n2022 Masaje tailandesa en salón de Alemania, Nuremberg \n2023 Masaje Deportivo recibi la certification de educación profesional \"Escuela Profesional de Belleza\" centro de formación profesional Letonia. \n",
         "style": "italic"
       }
     ]

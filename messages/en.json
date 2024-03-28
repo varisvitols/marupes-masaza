@@ -1,4 +1,7 @@
 {
+  "metadata": {
+    "description": "Massage services in Marupe"
+  },
   "mainMenu": {
     "myStory": "My Story",
     "procedures": "Procedures"

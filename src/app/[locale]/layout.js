@@ -5,9 +5,15 @@ import Navigation from '@/src/app/[locale]/_components/navigation'
 
 const raleway = Raleway({ subsets: ['latin-ext'] })
 
-export const metadata = {
-  title: 'Mārupes Masāža',
-  description: 'Masiera pakalpojumi Mārupē',
+import { getTranslations } from 'next-intl/server'
+
+export async function generateMetadata({ params: { locale } }) {
+  const t = await getTranslations({ locale, namespace: 'metadata' })
+
+  return {
+    title: 'Mārupes Masāža',
+    description: t('description'),
+  }
 }
 
 export default function LocaleLayout({ children, params: { locale } }) {

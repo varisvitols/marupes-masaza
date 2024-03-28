@@ -52,7 +52,7 @@ text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,95);
 } */
 
 body {
-  background-image: url('../public/mandala-bg-op92.jpeg');
+  background-image: url('../../public/mandala-bg-op92.jpeg');
   background-size: cover;
   background-position: top center;
   font-family: 'Raleway', sans-serif;
@@ -102,7 +102,7 @@ h1 {
 }
 
 .logo {
-  background-image: url('../public/half-a-sun1.png');
+  background-image: url('../../public/half-a-sun1.png');
   background-position: top center;
   background-repeat: no-repeat;
   padding: 3.5rem 0 0;

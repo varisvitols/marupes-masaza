@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { Raleway } from 'next/font/google'
-import './globals.css'
-import Navigation from '@/app/_components/navigation'
+import '../globals.css'
+import Navigation from '@/src/app/[locale]/_components/navigation'
 
 const raleway = Raleway({ subsets: ['latin-ext'] })
 
@@ -10,9 +10,9 @@ export const metadata = {
   description: 'Masiera pakalpojumi Mārupē',
 }
 
-export default function RootLayout({ children }) {
+export default function LocaleLayout({ children, params: { locale } }) {
   return (
-    <html lang="lv">
+    <html lang={locale}>
       <body className={raleway.className}>
         <div className="page-container">
           <div className="page-content">

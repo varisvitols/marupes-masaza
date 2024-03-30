@@ -1,8 +1,8 @@
-import styles from './navigation.module.css'
+import styles from './main-nav.module.css'
 import { useTranslations } from 'next-intl'
-import NavigationLink from './navigation-link'
+import NavigationLink from './nav-link'
 
-export default function Navigation() {
+export default function MainNav() {
   const t = useTranslations('mainMenu')
 
   return (

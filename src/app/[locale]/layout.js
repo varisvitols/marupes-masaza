@@ -1,11 +1,9 @@
-import Link from 'next/link'
+import { getTranslations } from 'next-intl/server'
 import { Raleway } from 'next/font/google'
 import '../globals.css'
-import Navigation from '@/src/app/[locale]/_components/navigation'
+import Header from './_components/header/header'
 
 const raleway = Raleway({ subsets: ['latin-ext'] })
-
-import { getTranslations } from 'next-intl/server'
 
 export async function generateMetadata({ params: { locale } }) {
   const t = await getTranslations({ locale, namespace: 'metadata' })
@@ -22,10 +20,7 @@ export default function LocaleLayout({ children, params: { locale } }) {
       <body className={raleway.className}>
         <div className="page-container">
           <div className="page-content">
-            <Link href="/">
-              <h1 className="logo">Mārupes Masāža</h1>
-            </Link>
-            <Navigation />
+            <Header />
             {children}
             <div className="footer">
               <div className="contacts">

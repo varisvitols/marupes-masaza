@@ -1,7 +1,7 @@
 import TreatmentsItem from '@/src/app/[locale]/_components/treatments-item'
 import { promises as fs } from 'fs'
 
-export default async function Home({ params: { locale } }) {
+export default async function Procedures({ params: { locale } }) {
   const file = await fs.readFile(process.cwd() + '/src/data.json', 'utf8')
   const data = JSON.parse(file)
 

@@ -5,5 +5,8 @@
   "mainMenu": {
     "myStory": "Mi historia",
     "procedures": "Procedimientos"
+  },
+  "footer": {
+    "text": "Samanta, tel. +371 25 137 388"
   }
 }

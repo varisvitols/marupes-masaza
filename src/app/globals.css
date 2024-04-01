@@ -52,8 +52,10 @@ text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,95);
 } */
 
 body {
+  background-color: rgb(204, 182, 142);
   background-image: url('../../public/mandala-bg-op92.jpeg');
   background-size: cover;
+  background-attachment: fixed;
   background-position: top center;
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
@@ -138,4 +140,8 @@ h1 {
 
 .footer .icon-links {
   margin-top: 1rem;
+}
+
+:root {
+  --orange: rgb(251, 176, 57);
 }

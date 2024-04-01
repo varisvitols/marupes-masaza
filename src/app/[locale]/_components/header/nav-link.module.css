@@ -12,5 +12,5 @@
 }
 
 .active {
-  color: rgb(251, 176, 57);
+  color: var(--orange);
 }

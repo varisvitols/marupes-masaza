@@ -1,6 +1,6 @@
 .lang-nav {
-  border-top: 3px solid rgb(251, 176, 57);
-  border-bottom: 3px solid rgb(251, 176, 57);
+  border-top: 3px solid var(--orange);
+  border-bottom: 3px solid var(--orange);
   padding: 0.2rem;
   font-size: smaller;
   margin: 1rem 0;

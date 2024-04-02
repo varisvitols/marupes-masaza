@@ -4,11 +4,11 @@
       "title": {
         "lv": "Klasiskā masāža visam ķermenim",
         "en": "Full body classical massage",
-        "es": "Masaje sueca - masaje clasico de cuerpo completo"
+        "es": "Masaje Sueco"
       },
       "price": {
-        "eur": "1h - 20 eur",
-        "usd": "1h - 20$  1.30h - 25$"
+        "eur": "1h - 30 eur",
+        "usd": "1h - 35$, 1.30h - 45$"
       }
     },
     {
@@ -18,8 +18,8 @@
         "es": "Masaje deportivo"
       },
       "price": {
-        "eur": "1h - 35 eur",
-        "usd": "2h - 35$, 1.30h - 30$, 1h - 25$"
+        "eur": "1h - 45 eur",
+        "usd": "2h - 50$, 1.30h - 45$, 1h - 35$"
       }
     },
     {
@@ -27,7 +27,7 @@
         "es": "Masaje tailandés"
       },
       "price": {
-        "usd": "1.30h- 33$, 1h- 30$"
+        "usd": "1.30h- 40$, 1h- 30$"
       }
     },
     {
@@ -37,8 +37,8 @@
         "es": "Masaje tailandés tradicional"
       },
       "price": {
-        "eur": "1h - 30 eur",
-        "usd": "1h - 30$"
+        "eur": "1h - 40 eur",
+        "usd": "1h - 40$"
       }
     },
     {
@@ -48,7 +48,7 @@
         "es": "Masaje Aromatico Relajante"
       },
       "price": {
-        "eur": "1h - 15 eur",
+        "eur": "1h - 20 eur",
         "usd": "1h - 15$, 1.30h - 20$"
       }
     },
@@ -59,8 +59,8 @@
         "es": "Masaje de pies con reflexologia tailandesa"
       },
       "price": {
-        "eur": "30m - 15 eur",
-        "usd": "30min - 15$, 45min - 20$"
+        "eur": "30m - 20 eur",
+        "usd": "30min - 25$, 45min - 35$"
       }
     },
     {
@@ -69,7 +69,7 @@
         "en": "Relaxing Toning Back massage"
       },
       "price": {
-        "eur": "30m - 15 eur, 1h - 25 eur"
+        "eur": "30m - 20eur, 1h - 25 eur"
       }
     },
     {
@@ -78,7 +78,7 @@
         "en": "Deep tissue massage"
       },
       "price": {
-        "eur": "1h - 33 eur"
+        "eur": "1h - 40 eur"
       }
     },
     {
@@ -88,8 +88,8 @@
         "es": "Masaje de cabeza y cuello"
       },
       "price": {
-        "eur": "30m - 12 eur",
-        "usd": "30 min - 15$"
+        "eur": "30m - 20 eur",
+        "usd": "30 min - 25$"
       }
     },
     {
@@ -98,7 +98,7 @@
         "en": "Tibetan back massage"
       },
       "price": {
-        "eur": "33 eur"
+        "eur": "35 eur"
       }
     },
     {
@@ -108,19 +108,19 @@
         "es": "Masaje escultor o anticelulitico"
       },
       "price": {
-        "eur": "33 eur",
-        "usd": "1h- 25$, 1.30h- 30$"
+        "eur": "40 eur",
+        "usd": "1h- 40$, 1.30h- 50$"
       }
     },
     {
       "title": {
         "lv": "Sejas liftinga masāža",
         "en": "Anti-age massage",
-        "es": "Masaje lifting facial o antiedad 30 min"
+        "es": "Masaje lifting facial o antiedad"
       },
       "price": {
-        "eur": "25m - 15 eur",
-        "usd": "15$"
+        "eur": "25m - 25 eur",
+        "usd": "30 min - 20$"
       }
     },
     {
@@ -128,7 +128,7 @@
         "es": "Masaje de drenaje linfatico"
       },
       "price": {
-        "usd": "1h-25$, 1.30h- 30$"
+        "usd": "1h-35$, 1.30h- 40$"
       }
     }
   ],

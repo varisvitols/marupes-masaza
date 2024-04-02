@@ -4,7 +4,7 @@ import styles from '../about.module.css'
 import masseuseImg from '@/public/samanta_story.jpg'
 
 export default async function Index({ params: { locale } }) {
-  const file = await fs.readFile(process.cwd() + '/src/data.json', 'utf8')
+  const file = await fs.readFile(process.cwd() + '/data.json', 'utf8')
   const data = JSON.parse(file)
 
   const textItems = data.info[locale].map((item) => {

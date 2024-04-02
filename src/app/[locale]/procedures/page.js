@@ -3,7 +3,7 @@ import { promises as fs } from 'fs'
 import styles from './procedures.module.css'
 
 export default async function Procedures({ params: { locale } }) {
-  const file = await fs.readFile(process.cwd() + '/src/data.json', 'utf8')
+  const file = await fs.readFile(process.cwd() + '/data.json', 'utf8')
   const data = JSON.parse(file)
 
   const treatments = data.treatments.map((item) => {

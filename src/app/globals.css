@@ -40,16 +40,8 @@ a {
   text-decoration: none;
   color: unset;
 }
-/* body {
-background-image: url('mandala-bg.jpeg');
-background-size: cover;
-background-position: top center;
-font-family: 'Raleway', sans-serif;
-font-weight: 500;
-color: #fff;
-text-shadow: -2px -2px 2px rgba(255,255,255,.1), 2px 2px 2px rgba(0,0,0,.95);
-text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,95);
-} */
+
+/* Body and Container */
 
 body {
   background-color: rgb(204, 182, 142);
@@ -68,43 +60,8 @@ body {
     1px 1px 1px rgba(0, 0, 0, 95);
 }
 
-/* body {
-background-image: url('mandala-bg-op85.jpeg');
-background-size: cover;
-background-position: top center;
-font-family: 'Raleway', sans-serif;
-font-weight: 500;
-color: #fff;
-text-shadow: -2px -2px 2px rgba(255,255,255,.1), 2px 2px 2px rgba(0,0,0,.95);
-text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,95);
-} */
-
-/* body {
-background-image: url('mandala-bg-op75.jpeg');
-background-size: cover;
-background-position: top center;
-font-family: 'Raleway', sans-serif;
-font-weight: 500;
-color: #fff;
-text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,95);
-} */
-
-/* body {
-background-image: url('mandala-bg-op75.jpeg');
-background-size: cover;
-background-position: top center;
-font-family: 'Raleway', sans-serif;
-font-weight: 500;
-color: red;
-text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,95);
-} */
-
 .page-container {
   background-color: rgba(255, 166, 0, 0.3);
-  /* background-color: rgba(255, 145, 0, 0.3); */
-  /* background-color: rgba(200, 130, 0, 0.5); */
-  /* background-color: rgba(0, 106, 255, 0.307); */
-  /* background-color: rgba(255, 51, 0, 0.3); */
 }
 
 .page-content {
@@ -115,19 +72,7 @@ text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,95);
   min-height: 100vh;
 }
 
-.treatments {
-  width: 100%;
-  padding: 0 0.5rem;
-}
-
-.footer {
-  padding: 4rem 0 1rem;
-  text-align: center;
-}
-
-.footer .icon-links {
-  margin-top: 1rem;
-}
+/* CSS Variables */
 
 :root {
   --orange: rgb(251, 176, 57);

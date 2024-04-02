@@ -1,14 +1,15 @@
 import { useTranslations } from 'next-intl'
+import styles from './footer.module.css'
 
 export default function Footer() {
   const t = useTranslations('footer')
 
   return (
-    <div className="footer">
-      <div className="contacts">
+    <div className={styles.footer}>
+      <div>
         <div>{t('text')}</div>
         <div>Mārupe</div>
-        <div className="icon-links">
+        <div className={styles['icon-links']}>
           <a
             href="https://www.instagram.com/marupe_massage/"
             target="_blank"

@@ -1,5 +1,6 @@
 import TreatmentsItem from '@/src/app/[locale]/_components/treatments-item'
 import { promises as fs } from 'fs'
+import styles from './procedures.module.css'
 
 export default async function Procedures({ params: { locale } }) {
   const file = await fs.readFile(process.cwd() + '/src/data.json', 'utf8')
@@ -24,5 +25,5 @@ export default async function Procedures({ params: { locale } }) {
     }
   })
 
-  return <main className="treatments">{treatments}</main>
+  return <main className={styles.treatments}>{treatments}</main>
 }

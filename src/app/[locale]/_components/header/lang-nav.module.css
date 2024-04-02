@@ -1,0 +1,14 @@
+.lang-nav {
+  border-top: 3px solid var(--orange);
+  border-bottom: 3px solid var(--orange);
+  padding: 0.2rem;
+  font-size: smaller;
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 600px) {
+  .lang-nav {
+    position: absolute;
+    right: 2rem;
+  }
+}

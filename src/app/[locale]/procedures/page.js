@@ -1,9 +1,10 @@
 import TreatmentsItem from '@/src/app/[locale]/_components/treatments-item'
+import * as path from 'path'
 import { promises as fs } from 'fs'
 import styles from './procedures.module.css'
 
 export default async function Procedures({ params: { locale } }) {
-  const file = await fs.readFile(process.cwd() + '/data.json', 'utf8')
+  const file = await fs.readFile(path.join(process.cwd(), 'data.json'), 'utf8')
   const data = JSON.parse(file)
 
   const treatments = data.treatments.map((item) => {

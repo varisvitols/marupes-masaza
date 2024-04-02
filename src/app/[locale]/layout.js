@@ -10,7 +10,7 @@ export async function generateMetadata({ params: { locale } }) {
   const t = await getTranslations({ locale, namespace: 'metadata' })
 
   return {
-    title: 'Mārupes Masāža',
+    title: t('title'),
     description: t('description'),
   }
 }

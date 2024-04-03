@@ -1,6 +1,11 @@
+import type { TTreatmentsItem } from '../types'
 import styles from './treatments-item.module.css'
 
-export default function TreatmentsItem({ itemData }) {
+type Props = {
+  itemData: TTreatmentsItem
+}
+
+export default function TreatmentsItem({ itemData }: Props) {
   const { title, price } = itemData
 
   return (

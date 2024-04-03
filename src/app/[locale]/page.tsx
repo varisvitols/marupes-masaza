@@ -1,14 +1,16 @@
+import type { PageProps } from '@/.next/types/app/[locale]/page'
+import type { TKeyValueString } from '@/types/generic'
 import Image from 'next/image'
 import * as path from 'path'
 import { promises as fs } from 'fs'
 import styles from '../about.module.css'
 import masseuseImg from '@/public/samanta_story.jpg'
 
-export default async function Index({ params: { locale } }) {
+export default async function Index({ params: { locale } }: PageProps) {
   const file = await fs.readFile(path.join(process.cwd(), 'data.json'), 'utf8')
   const data = JSON.parse(file)
 
-  const textItems = data.info[locale].map((item) => {
+  const textItems = data.info[locale].map((item: TKeyValueString) => {
     if (item.style === 'italic') {
       return (
         <p key={item.id}>

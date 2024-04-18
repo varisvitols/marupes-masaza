@@ -2,6 +2,17 @@
   "treatments": [
     {
       "title": {
+        "lv": "Bērnu masāža",
+        "en": "Infant massage",
+        "es": "Masaje infantil"
+      },
+      "price": {
+        "eur": "30min - 20 eur",
+        "usd": "30min - 20$"
+      }
+    },
+    {
+      "title": {
         "lv": "Klasiskā masāža visam ķermenim",
         "en": "Full body classical massage",
         "es": "Masaje Sueco"
@@ -110,17 +121,6 @@
       "price": {
         "eur": "40 eur",
         "usd": "1h- 40$, 1.30h- 50$"
-      }
-    },
-    {
-      "title": {
-        "lv": "Sejas liftinga masāža",
-        "en": "Anti-age massage",
-        "es": "Masaje lifting facial o antiedad"
-      },
-      "price": {
-        "eur": "25m - 25 eur",
-        "usd": "30 min - 20$"
       }
     },
     {

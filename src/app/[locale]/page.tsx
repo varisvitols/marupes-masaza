@@ -30,10 +30,10 @@ export default async function Index({ params: { locale } }: PageProps) {
       >
         {textItems}
       </div>
-      <Image
+      {/* <Image
         src={masseuseImg}
         alt="Samanta"
-      />
+      /> */}
     </main>
   )
 }

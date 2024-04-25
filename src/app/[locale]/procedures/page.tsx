@@ -37,13 +37,13 @@ export default async function Procedures({ params: { locale } }: PageProps) {
   return (
     <main className={styles.treatments}>
       {treatments}
-      {/* <div>
+      <div>
         <Image
           src={img2}
           alt="Procedure"
           style={{ marginBottom: '2rem' }}
         />
-      </div> */}
+      </div>
       {/* <div>
         <Image
           src={img13}

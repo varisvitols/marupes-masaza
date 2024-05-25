@@ -3,7 +3,7 @@
 import { useParams } from 'next/navigation'
 import { Link } from '@/src/navigation'
 import { locales } from '@/src/navigation'
-import mainNavStyles from './main-nav.module.css'
+import langNavStyles from './lang-nav.module.css'
 import styles from './lang-nav.module.css'
 import linkStyles from './nav-link.module.css'
 
@@ -22,7 +22,7 @@ export default function LangNav() {
   ))
 
   return (
-    <nav className={`${mainNavStyles.navigation} ${styles['lang-nav']}`}>
+    <nav className={`${langNavStyles.navigation} ${styles['lang-nav']}`}>
       {localeLinks}
     </nav>
   )

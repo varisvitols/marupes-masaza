@@ -4,7 +4,6 @@
   text-transform: uppercase;
   padding: 0.2rem 0.5rem;
   display: inline-block;
-  border-right: 3px solid white;
 }
 
 .link:last-child {
@@ -13,4 +12,10 @@
 
 .active {
   color: var(--orange);
+}
+
+@media screen and (min-width: 600px) {
+  .link {
+    border-right: 3px solid white;
+  }
 }

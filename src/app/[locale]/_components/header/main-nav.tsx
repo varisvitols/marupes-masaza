@@ -9,6 +9,7 @@ export default function MainNav() {
     <nav className={styles.navigation}>
       <NavigationLink href="/">{t('myStory')}</NavigationLink>
       <NavigationLink href="/procedures">{t('procedures')}</NavigationLink>
+      <NavigationLink href="/gallery">{t('gallery')}</NavigationLink>
     </nav>
   )
 }

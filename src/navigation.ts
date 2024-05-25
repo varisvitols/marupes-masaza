@@ -10,6 +10,11 @@ export const pathnames = {
     en: '/procedures',
     es: '/procedimientos',
   },
+  '/gallery': {
+    lv: '/galerija',
+    en: '/gallery',
+    es: '/galería',
+  },
 } satisfies Pathnames<typeof locales>
 
 export const { Link, redirect, usePathname, useRouter, getPathname } =

@@ -23,6 +23,7 @@ function Gallery({}: Props) {
   const galleryImages = imageList.map((fileName) => {
     return (
       <img
+        key={fileName}
         loading="lazy"
         src={`/gallery/${fileName}`}
         alt=""

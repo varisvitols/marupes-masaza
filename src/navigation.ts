@@ -13,7 +13,7 @@ export const pathnames = {
   '/gallery': {
     lv: '/galerija',
     en: '/gallery',
-    es: '/galería',
+    es: '/galeria',
   },
 } satisfies Pathnames<typeof locales>
 
